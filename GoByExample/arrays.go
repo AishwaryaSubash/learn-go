@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func arrays() {
 
@@ -25,8 +23,12 @@ func arrays() {
 	for i := range len(b) {
 		fmt.Print(b[i], " ")
 	}
-	
+
 	// Compiler calculates the length on its own
 	c := [...]int{1, 2, 3, 4, 5}
 	fmt.Println(len(c))
+
+	// Two-dimensional array
+	d := [2][3]int{{1, 2, 3}, {4, 5, 6}}
+	fmt.Println("rows:", len(d), " cols:", len(d[0]))
 }

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func conditionals() {
 	// Parentheses around conditions - NOT REQD
@@ -21,7 +19,7 @@ func conditionals() {
 		fmt.Println(n, "is greater than 0")
 	}
 
-	// Switch statement 
+	// Switch statement
 	// No need for explicit BREAK statements
 	i := 2
 	switch i {

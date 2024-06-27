@@ -5,5 +5,7 @@ func main() {
 	// constants()
 	// forLoop()
 	// conditionals()
-	arrays()
+	// arrays()
+	// slices()
+	maps()
 }

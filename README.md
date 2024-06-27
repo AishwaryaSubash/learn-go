@@ -10,3 +10,10 @@
 4. Only one looping construct: FOR
 
 5. Loop control statements: break, continue
+
+6. Associative data type: MAPS
+    Declaration:
+        make(map[key-type]val-type)
+    
+    Initialisation:
+        name[key] = val
