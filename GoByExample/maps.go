@@ -19,4 +19,10 @@ func maps() {
 
 	val := n[1]
 	fmt.Println("get val:", val)
+
+	delete(m, "k2")
+    	fmt.Println("delete:", m)
+
+	clear(m)
+    	fmt.Println("clear:", m)
 }
