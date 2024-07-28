@@ -17,12 +17,16 @@ func maps() {
 	n[2] = "hi"
 	fmt.Println(n)
 
-	val := n[1]
-	fmt.Println("get val:", val)
+	// Get value using key
+	// If key does not exist, Zero-value of value type is returned
+	val, isPresent := n[1]
+	fmt.Println("Key exists?", isPresent, "\nGet val:", val)
 
+	// Removes a key-value pair from map
 	delete(m, "k2")
-    	fmt.Println("delete:", m)
+	fmt.Println("delete:", m)
 
+	// Removes all key-value pairs from map
 	clear(m)
-    	fmt.Println("clear:", m)
+	fmt.Println("clear:", m)
 }
