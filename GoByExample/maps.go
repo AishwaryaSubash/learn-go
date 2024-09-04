@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"maps"
 )
 
 func maps() {
@@ -34,11 +33,12 @@ func maps() {
 	fmt.Println("clear:", m)
 
 	// "maps" package contains utility functions for maps
-	map1 := map[string]int{1: "apple", 2: "banana"}
+	map1 := map[int]string{1: "apple", 2: "banana"}
     fmt.Println("map:", map1)
 
-    map2 := map[string]int{1: "apple", 2: "banana"}
-    if maps.Equal(map1, map2) {
-        fmt.Println("map1 == map2")
-    }
+    map2 := map[int]string{1: "apple", 2: "banana"}
+	fmt.Println("map:", map2)
+    // if maps.Equal(map1, map2) {
+    //     fmt.Println("map1 == map2")
+    // }
 }

@@ -7,5 +7,6 @@ func main() {
 	// conditionals()
 	// arrays()
 	// slices()
-	maps()
+	// maps()
+	calc()
 }
